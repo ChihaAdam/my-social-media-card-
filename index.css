@@ -1,0 +1,61 @@
+@font-face { 
+    font-family: 'Inter'; 
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') ;
+  }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .profilePic{
+      border-radius:50%;
+      width:100px;
+    }
+    body{
+      background-color:hsl(0, 0%, 8%);
+      color:white;
+      font-family: "Inter";
+    }
+    .name{
+      margin-bottom:10px;
+    }
+    .country{
+      color:hsl(75, 94%, 57%);
+      font-size: 90%;
+      margin-top:0px;
+    }
+    .container{
+      display:flex;
+      flex-direction: column;
+      max-width:375px;
+      background-color: hsl(0, 0%, 12%);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin:40px auto;
+      border-radius: 10px;
+      padding:25px;
+    }
+    .job{
+      font-size:14px;
+    }
+    .button{
+      font-family:inter;
+      display:block;
+      font-size:15px;
+      padding:15px;
+      background-color: hsl(0, 0%, 20%);
+      color:white;
+      font-weight: 700;
+      border:none;
+      border-radius: 10px;
+      transition:all 0.5s ease;
+      text-decoration:none;
+    }
+    .button:hover{
+      background-color:hsl(75, 94%, 57%);
+      color:black;
+    }
+    .buttonContainer{
+      display:flex;
+      flex-direction: column;
+      width:340px;
+      gap:15px;
+    }

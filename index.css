@@ -14,6 +14,9 @@
     body{
       background-color:hsl(0, 0%, 8%);
       color:white;
+      display:flex;
+      flex-direction: column;
+      align-items:center;
     }
     .name{
       margin-bottom:10px;

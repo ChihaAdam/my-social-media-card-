@@ -4,6 +4,9 @@
   }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      font-family: "Inter";
+    }
     .profilePic{
       border-radius:50%;
       width:100px;
@@ -11,7 +14,6 @@
     body{
       background-color:hsl(0, 0%, 8%);
       color:white;
-      font-family: "Inter";
     }
     .name{
       margin-bottom:10px;
@@ -37,7 +39,6 @@
       font-size:14px;
     }
     .button{
-      font-family:inter;
       display:block;
       font-size:15px;
       padding:15px;

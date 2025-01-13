@@ -14,7 +14,6 @@
     body{
       background-color:hsl(0, 0%, 8%);
       color:white;
-      
     }
     .superContainer{
       display:flex;
@@ -68,3 +67,24 @@
       width:340px;
       gap:15px;
     }
+@media screen and (max-width:475px){
+    .superContainer{
+      display:block;
+    }
+    .container{
+      display:block;
+      
+      padding:15px; 
+    }
+    .button{
+      width: 100%; 
+      box-sizing: border-box; 
+    }
+    .buttonContainer{
+      width: 100%;
+      padding:0px 15px; 
+      box-sizing: border-box; 
+    }
+  }
+  
+  
